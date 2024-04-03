@@ -25,7 +25,7 @@ const Hero = () => {
             textAlign={"center"}
             textShadow={"2px 2px 4px rgba(0,0,0,0.5)"}
             fontFamily={"Anton !important"}
-            fontSize={{lg : 100, md : 90, sm : "70px", base : "60px"}}
+            fontSize={{lg : 90, md : 90, sm : "70px", base : "60px"}}
             color={"#fff"}
           >
             Enter a world of heroes. Watch now!
