@@ -4,7 +4,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <Box id="about" py={40} px={50} height={"100vh"}>
+    <Box id="about" py={40} px={{lg : 50, md : 50, sm : 10, base : 5}} height={{lg : "100vh", md : "100vh", sm :  "fit-content", base : "fit-content"}}>
       <Flex justifyContent={"space-between"} alignItems={"center"}>
         <Box
           width={{ lg: 600, md: 600, sm: "100%", base: "100%" }}

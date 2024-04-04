@@ -34,16 +34,13 @@ const Header = () => {
             About
           </Link>
           <Link fontSize={15} color={"#fff"} href={"/"}>
-            Contact
-          </Link>
-          <Link fontSize={15} color={"#fff"} href={"/"}>
-            Services
-          </Link>
-          <Link fontSize={15} color={"#fff"} href={"/"}>
             Children and Kids
           </Link>
           <Link fontSize={15} color={"#fff"} href={"/"}>
             Games
+          </Link>
+          <Link fontSize={15} color={"#fff"} href={"/"}>
+            Contact
           </Link>
         </Flex>
 
