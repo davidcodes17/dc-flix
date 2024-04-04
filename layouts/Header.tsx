@@ -4,7 +4,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <Box p={7}>
+    <Box px={{lg : 7, md  : 7, sm : 4, base : 2}} pt={7}>
       <Flex
         justifyContent={"space-between"}
         className="blur"
