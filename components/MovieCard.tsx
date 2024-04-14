@@ -7,8 +7,8 @@ const MovieCard = () => {
     <Box>
       <Image
         cursor={"pointer"}
-        width={"200px"}
-        minW={"200px"}
+        width={{lg : "200px", md : "200px", sm : "200px", base : "90vw"}}
+        minW={{lg : "200px", md : "200px", sm : "20px", base : "90vw"}}
         objectFit={"cover"}
         height={"300px"}
         borderRadius={40}

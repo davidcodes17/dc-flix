@@ -19,11 +19,14 @@ const page = () => {
       >
         <Box height={"100vh"} width={"100vw"} className="bgs">
           <MainHeader />
-          <Box pl={200} pt={130}>
+          <Box pl={{ lg: 200, md: 200, sm: 10, base: 10 }} pt={130}>
             <Flex>
               <Box color={"#fff"}>
                 <Nav />
-                <Heading fontSize={70} fontWeight={400}>
+                <Heading
+                  fontSize={{ lg: 70, md: 70, sm: 50, base: 50 }}
+                  fontWeight={400}
+                >
                   Ghosted
                 </Heading>
                 <Flex gap={2}>
@@ -33,7 +36,10 @@ const page = () => {
                   <Star size={50} variant="Bold" color="gold" />
                   <Star size={50} variant="Outline" color="#fff" />
                 </Flex>
-                <Text width={700}>
+                <Text
+                  fontSize={{ lg: 15, md: 12, sm: 12, base: 12 }}
+                  width={{ lg: 700, md: 500, sm: "100%  ", base: "100%" }}
+                >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Adipisci officiis laboriosam nam quis exercitationem. Nam quod
                   nobis, tempora earum blanditiis laudantium ut. Autem minima
@@ -42,10 +48,10 @@ const page = () => {
                 <Box>
                   <Flex pt={4}>
                     <MovieCover />
-                    <MovieCover />
-                    <MovieCover />
-                    <MovieCover />
-                    <MovieCover />
+                    {/* <MovieCover /> */}
+                    {/* <MovieCover /> */}
+                    {/* <MovieCover /> */}
+                    {/* <MovieCover /> */}
                   </Flex>
                 </Box>
               </Box>

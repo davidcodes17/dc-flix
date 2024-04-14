@@ -4,10 +4,10 @@ import React from 'react'
 
 const TrendingMovies = () => {
   return (
-    <Box px={150}>
+    <Box px={{lg : 150, md : 150, sm : 5, base : 5}}>
         <Box pt={120} color={"#fff"}>
-          <Heading fontSize={50}>Trending Movies</Heading>
-          <Flex gap={10} mt={10} flexWrap={"wrap"}>
+          <Heading fontSize={{lg : 50, md : 50, sm : 40, base : "35px"}} fontWeight={400}>Trending Movies</Heading>
+          <Flex gap={{lg : 10, md : 10, sm : 5, base : 5}} mt={10} flexWrap={"wrap"}>
             <MovieCard />
             <MovieCard />
             <MovieCard />

@@ -21,10 +21,11 @@ const MainHeader = () => {
       pt={7}
     >
       <Flex
-        justifyContent={"space-between"}
+        justifyContent={{lg : "space-between", md : "space-between", sm : "left", base : "left"}}
         className="blur"
         boxShadow={"0px 0px 10px #000"}
         borderRadius={100}
+        gap={{lg : 0, md : 0, sm : 10, base : 10}}
         p={3}
         px={4}
         alignItems={"center"}
@@ -44,7 +45,7 @@ const MainHeader = () => {
             border={"none"}
             color={"#fff"}
             fontSize={12}
-            width={"400px"}
+            width={{lg:"400px", md : "400px", sm : "100%", base : "100%"}}
             placeholder="Search Movies...."
           />
         </Flex>
@@ -64,13 +65,6 @@ const MainHeader = () => {
         >
           Logout
         </Button>
-        <Box
-          display={{ lg: "none", md: "none", sm: "block", base: "block" }}
-          mr={10}
-          cursor={"pointer"}
-        >
-          <HambergerMenu size={40} color="#fff" />
-        </Box>
       </Flex>
     </Box>
   );

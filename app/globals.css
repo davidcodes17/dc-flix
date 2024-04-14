@@ -26,6 +26,9 @@ body{
   background-image: radial-gradient(#000000df,#000);
   /* background: #000 !important; */
 }
+.icon:hover{
+  transform: translateY(-5px);
+}
 /* .bb{
   
   background: #000000a1 !important;

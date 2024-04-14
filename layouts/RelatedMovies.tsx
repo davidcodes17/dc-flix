@@ -4,10 +4,10 @@ import React from 'react'
 
 const RelatedMovies = () => {
   return (
-    <Box px={150}>
-        <Box py={100} color={"#fff"}>
-          <Heading fontSize={50}>Related Movies</Heading>
-          <Flex gap={10} mt={10} flexWrap={"wrap"}>
+    <Box px={{lg : 150, md : 150, sm : 5, base : 5}}>
+        <Box pt={120} color={"#fff"}>
+          <Heading fontSize={{lg : 50, md : 50, sm : 40, base : "35px"}} fontWeight={400}>Related Movies</Heading>
+          <Flex gap={{lg : 10, md : 10, sm : 5, base : 5}} mt={10} flexWrap={"wrap"}>
             <MovieCard />
             <MovieCard />
             <MovieCard />
