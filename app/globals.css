@@ -18,6 +18,14 @@ body{
   overflow-x: hidden !important;
   background: #111 !important;
 }
+.bgs{
+  background-image: radial-gradient(#00000053,#000);
+  /* background: #000 !important; */
+}
+.bgss{
+  background-image: radial-gradient(#000000df,#000);
+  /* background: #000 !important; */
+}
 /* .bb{
   
   background: #000000a1 !important;

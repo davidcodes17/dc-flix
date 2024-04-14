@@ -10,7 +10,6 @@ const Header = () => {
         className="blur"
         boxShadow={"0px 0px 10px #000"}
         borderRadius={100}
-        // py={6}
         p={3}
         px={4}
         alignItems={"center"}
@@ -49,6 +48,8 @@ const Header = () => {
             bg={"#000"}
             color={"#fff"}
             fontWeight={400}
+            as={Link}
+            href={"/login"}
             px={5}
             borderRadius={20}
             width={120}
